@@ -1,0 +1,276 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    padding: 1px;
+    background: #332E34;
+    font-family: 'Roboto',sans-serif;
+}
+.navbar .logo a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: -3px;
+}
+.navbar #links {
+    text-align: right;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 0 40px;
+    font-weight: 300;
+    
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('images/5249684-plane-wallpaper.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: left;
+    margin-top: -35px;
+}
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    transform: translate(5%, 250%);
+    font-size: 50px;
+}
+.barca {
+    display: flex;
+    margin: 20px;
+}
+.barca .slant {
+    width: 30em;
+    height: 300px;
+    background-color: white;
+    transform: skewX(-40deg);
+    position: relative;
+    left: 45%;
+    z-index: -10;
+}
+.barca .pic {
+    width: 50em;
+    height: 300px;
+    background: url('images/Barcelona-Time-Travel-1.jpg');
+    background-size: cover;
+    z-index: -100;
+    background-position: right;
+    position: absolute;
+    
+}
+.barca .text {
+    position: relative;
+    left: 20%;
+    width: 30em;
+}
+.barca .text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}
+.barca .text p {
+    font-size: 20px;
+}
+.majorca {
+    display: flex;
+    margin: 20px;
+}
+.majorca .slant {
+    width: 32em;
+    height: 300px;
+    background-color: white;
+    transform: skewX(-40deg);
+    position: relative;
+    left: 37%;
+    z-index: -10;
+}
+.majorca .pic {
+    width: 80em;
+    height: 300px;
+    background: url('images/Majorca%20lead-xlarge.jpg');
+    background-size: cover;
+    z-index: -1000;
+    background-position: right;
+}
+.majorca .text {
+    position: relative;
+    left: -10%;
+    width: 40em;
+    
+}
+.majorca .text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -5px;
+}
+.majorca .text p {
+    font-size: 20px;
+}
+.madrid {
+    display: flex;
+    margin: 20px;
+}
+.madrid .slant {
+    width: 30em;
+    height: 300px;
+    background-color: white;
+    transform: skewX(-40deg);
+    position: relative;
+    left: 40%;
+    z-index: -10;
+}
+.madrid .pic {
+    width: 40em;
+    height: 300px;
+    background: url('images/tmg-gift_guide_variable.jpg');
+    background-size: cover;
+    z-index: -100;
+    background-position: right;
+    position: absolute;
+    
+}
+.madrid .text {
+    position: relative;
+    left: 20%;
+    width: 30em;
+    
+}
+.madrid .text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}
+.madrid .text p {
+    font-size: 20px;
+}
+.valencia {
+    display: flex;
+    margin: 20px;
+}
+.valencia .slant {
+    width: 35em;
+    height: 300px;
+    background-color: white;
+    transform: skewX(-40deg);
+    position: relative;
+    left: 37%;
+    z-index: -10;
+}
+.valencia .pic {
+    width: 80em;
+    height: 300px;
+    background: url('images/Palau-de-les-Arts-Reina-Sofia-Valencia-Spain.jpg');
+    background-size: cover;
+    z-index: -1000;
+    background-position: right;
+}
+.valencia .text {
+    position: relative;
+    left: -10%;
+    width: 40em;
+    
+}
+.valencia .text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}
+.valencia .text p {
+    font-size: 20px;
+}
+.sevilla {
+    display: flex;
+    margin: 20px;
+}
+.sevilla .slant {
+    width: 30em;
+    height: 300px;
+    background-color: white;
+    transform: skewX(-40deg);
+    position: relative;
+    left: 40%;
+    z-index: -10;
+}
+.sevilla .pic {
+    width: 40em;
+    height: 300px;
+    background: url('images/Seville-with-Kids-Exploring-Moors-and-Flamenco-with-the-Family-191d2ea000f145f69dae7f9ffbd72091.jpg');
+    background-size: cover;
+    z-index: -100;
+    background-position: right;
+    position: absolute;
+    
+}
+.sevilla .text {
+    position: relative;
+    left: 20%;
+    width: 30em;
+    
+}
+.sevilla .text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}
+.sevilla .text p {
+    font-size: 20px;
+}
+
+.ibiza {
+    display: flex;
+    margin: 20px;
+}
+.ibiza .slant {
+    width: 35em;
+    height: 300px;
+    background-color: white;
+    transform: skewX(-40deg);
+    position: relative;
+    left: 37%;
+    z-index: -10;
+}
+.ibiza .pic {
+    width: 80em;
+    height: 300px;
+    background: url('images/4912965-lounge-wallpapers.jpg');
+    background-size: cover;
+    z-index: -1000;
+    background-position: right;
+}
+.ibiza .text {
+    position: relative;
+    left: -10%;
+    width: 40em;
+    
+}
+.ibiza .text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}
+.ibiza .text p {
+    font-size: 20px;
+}
+footer {
+    background: #2D292E;
+    height: 50px;
+}
+footer p {
+    padding: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+

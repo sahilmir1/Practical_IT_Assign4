@@ -1,0 +1,451 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+.header {
+    width:100%;
+/*    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('images/pexels-photo-58737.jpg');*/
+    background-color: rgba(0,0,0,0.3);
+    height: 750px;
+    margin-top: -80px;
+    margin-bottom: -100px;
+}
+#video-background {
+    position: absolute;
+    z-index: -100;
+    margin-top: -190px;
+    width: 120%;
+}
+/*
+.header:before {
+    content: '';
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 85%; 
+    left: 0; 
+    background: white; 
+    transform: skewY(8deg);
+}
+.header:after {
+    content: '';
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 85%; 
+    left: 50%; 
+    background: ; 
+    transform: skewY(-8deg);
+}
+*/
+.links {
+    margin-right: 50px;
+}
+.header .navbar {
+    margin-top: 60px;
+    color: white;
+    padding-top: 30px;
+    
+}
+.header .navbar .links h1 {
+    margin-bottom: -32px;
+    margin-left: 80px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.header .navbar .links a {
+    color: white; 
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 15px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    position: relative;
+    left: 60%;
+    font-size: 18px;
+}
+.header .navbar .links a::after {
+    margin-top: 10px;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .4s;
+}
+.header .navbar .links a:hover::after{
+    width: 100%;
+}
+.title {
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+.title h1 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 5px;
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+.title p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.title button {
+    padding: 8px 20px;
+    background: #BF0C1C ;
+    font-size: 18px;
+    color: #FFFF0E;
+    border: none;
+    border-radius: 5px;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+.title button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFF0E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.title button:hover {
+    background: #FFFF0E;
+    color: #BF0C1C;
+}
+.title button a:hover {
+    color: red;
+}
+.sec2 {
+    height: 600px;
+    background: #E5ECF4;
+    margin-top: 0px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+}
+.sec2 .bigpic {
+    background: url('https://static.amazon.jobs/locations/171/thumbnails/FC-Barcelona-Spain_image.jpg?1481893206');
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    text-align: center;
+    line-height: 12em;
+    font-size: 22px;
+}
+.sec2 h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+.sec2 img {
+    text-align: center;
+}
+.sec2title {
+    text-align: center; 
+}
+.sec2title p {
+    border-bottom: 3px solid black;
+    width: 100px;
+    position: relative;
+    left: 45%;
+}
+table tr td {
+    width: 400px;
+    height: 200px;
+     text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+
+}
+table tr #barca {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/FC-Barcelona-Spain_image.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 60px;
+}
+table tr #madrid {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/tmg-gift_guide_variable.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+table tr #majorca {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/Es-Pontas-Majorca-Spain.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+table tr #ibiza{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/00-tout-ibiza-spain-healing-retreat.jpg');
+    background-size: 100% 100%;
+}
+table tr #seville{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/Seville-with-Kids-Exploring-Moors-and-Flamenco-with-the-Family-191d2ea000f145f69dae7f9ffbd72091.jpg');
+    background-size: 100% 100%;
+}
+table tr #malaga{
+    background: url('images/p0155c7f.jpg');
+    background-size: 100% 100%;
+}
+table tr #valencia{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/Palau-de-les-Arts-Reina-Sofia-Valencia-Spain.jpg');
+    background-size: 100% 100%;
+}
+.booking {
+    display: flex;
+    padding: 20px;
+    background-color: #2D292E;
+    margin-top: -60px;
+}
+.booking select {
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    margin: auto;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.booking #calender input{
+    font-size: 15px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.booking #adults {
+    margin-right: 0;
+    border: none;
+    
+}
+.booking button {
+    margin-right: 100px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+    background: #FFFF11;
+    box-shadow: 0 2px 2px 3px rgba(0,0,0,0.3);
+}
+.gtw {
+    height: 450px;
+}
+.gtw h1 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 40px;
+}
+.gtw hr {
+    width: 10%;
+    padding: 2px;
+    border: none;
+    margin-bottom: 0;
+    margin-top: 20px;
+    background: black;
+}
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    margin: auto;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+    text-align: center;
+    height: 300px;
+}
+#item1 {
+    background: #D54E2B;
+}
+#item1 h2 {
+    line-height: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+#item1 p {
+    font-size: 40px;
+    margin-top: -50px;
+    color: white;
+}
+#item2 {
+    background: #FF8E05;
+}
+#item2 h2 {
+    line-height: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+#item2 p {
+    font-size: 40px;
+    margin-top: -50px;
+    color: white;
+}
+#item3 {
+    background: #006ED3;
+}
+#item3 h2 {
+    line-height: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+#item3 p {
+    font-size: 40px;
+    margin-top: -50px;
+    color: white;
+}
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    outline: none;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+    top: 60%;
+}
+
+.carousel-control.next {
+    right: 2%;
+    top: 60%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+footer {
+    background-color: #2D292E;
+    height: 52px;
+}
+footer .links {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    left: 45%;
+    margin-top: 4px;
+}
+footer .links .box {
+    border: 1px solid white;
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    border-radius: 50px;
+}
+footer .links .fa {
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+footer p {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 20px;
+}
